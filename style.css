@@ -1,0 +1,148 @@
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a:active{
+    color: black;
+    text-decoration: none;
+}
+.list_item{
+    margin: 10px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+.roundedInput{
+    
+    display: flex;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: 584px;
+    max-width: 584px;
+    margin-top: 30px;
+
+
+}
+.button{
+    margin: 11px 4px;
+    padding: 0 10px;
+    text-align: center;
+    height: 36px;
+    background-color: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 27px;
+    min-height: 54px;
+    cursor: pointer;
+    user-select: none;
+
+
+
+}
+.googleadimage{
+    display: inline-block;
+    height: 24px;
+    width: 74px;
+
+}
+.advancedhead{
+    color: #d93025;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin: 25px 35px;
+    
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    
+    vertical-align: baseline;
+    text-decoration: none;
+
+}
+.line{
+    border-bottom: #ebebeb solid 2px;
+}
+.line1{
+    width: 125.41;
+    height: 18;
+    color: #333333;
+    font-size: 16px;
+    
+}
+body{
+    font-family: Arial,  sans-serif;
+}
+.div-advanced{
+    margin: 50px;
+}
+.row-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+
+}
+.forminput{
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 28.5px;
+    width: 385px;
+    padding: 1px 8px;
+    outline: blue;
+    
+}
+.left{
+    font-size: 13px;
+    width: 200px;
+}
+.alignment{
+    align-items: row;
+}
+.btn-advanced{
+    user-select: none;
+    height: 30px;
+    min-width: 120px;
+    background-color: #4D90FE;
+    margin: 10px 0px;
+    padding: 0px 12px;
+    border: 1px solid #3079ed;
+    color: #fff;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 2px;
+}
+.btn-div{
+    display: flex;
+    justify-content: flex-end;
+    width: 575px;
+    margin: 30px;
+}
+
